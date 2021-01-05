@@ -548,6 +548,8 @@ video {
 
 .container {
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-width: 640px) {
@@ -578,6 +580,26 @@ video {
   .container {
     max-width: 1536px;
   }
+}
+
+/* Menu */
+
+.SubMenu{
+  display: none;
+}
+
+.MenuItem:hover + .SubMenu{
+  display: block;
+}
+
+.MenuItem + .SubMenu:hover{
+  display: block;
+}
+
+/* Search Item */
+
+.SearchItemWidth{
+  width: calc(25% - 16px);
 }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -31170,6 +31192,8 @@ video {
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   @media (min-width: 640px) {
@@ -61714,6 +61738,8 @@ video {
 @media (min-width: 768px) {
   .md\:container {
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   @media (min-width: 640px) {
@@ -92258,6 +92284,8 @@ video {
 @media (min-width: 1024px) {
   .lg\:container {
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   @media (min-width: 640px) {
@@ -122802,6 +122830,8 @@ video {
 @media (min-width: 1280px) {
   .xl\:container {
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   @media (min-width: 640px) {
@@ -153346,6 +153376,8 @@ video {
 @media (min-width: 1536px) {
   .\32xl\:container {
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   @media (min-width: 640px) {
