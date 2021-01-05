@@ -1,0 +1,15 @@
+{
+  "name": "Glossier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "tunv <nguyenvantu191298@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.2",
+    "tailwindcss": "^2.0.2"
+  },
+  "scripts": {
+    "build": "npx tailwindcss-cli build src/css/tailwind.css -o assets/css/app.css"
+  }
+}
