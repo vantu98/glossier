@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepages</title>
+    <link rel="stylesheet" href="../assets/css/app.css">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+</head>
+
+<body>
+    <div id="root" x-data="transitionAlpine()">
+        <main id="main">
+            <!-- HERO -->
+            <div class="w-full h-screen bg-gray-800">
+                <div class="container h-full bg-gray-700"></div>
+            </div>
+            <!-- END HERO -->
+            <div class="w-full">
+                <div class="py-8 bg-red-100 mt-10">
+                    <div class="container text-left px-4 lg:px-0 xl:px-0">
+                        <h2 class="text-3xl lg:text-4xl xl:text-4xl font-primary-serif">Beauty inspired by real life.
+                        </h2>
+                        <div class="flex">
+                            <div class="w-full lg:w-2/3 xl:w-2/3">
+                                <p class="text-base my-4">
+                                    Glossier is a new approach to beauty. It’s about fun and freedom and being OK with
+                                    yourself today. We make intuitive, uncomplicated products designed to live with you.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MAKE UP SECOND -->
+            <div class="w-full">
+                <div class="container mt-16 px-2 lg:px-0 xl:px-0">
+                    <div class="flex flex-wrap flex-shrink-1">
+                        <div class="w-full lg:w-1/2 xl:w-1/2 mx-auto">
+                            <div class="flex flex-col justify-center">
+                                <h2 class="text-center font-semibold text-3xl lg:text-4xl xl:text-4xl">
+                                    Makeup second.
+                                </h2>
+                                <div class="my-4 text-center">
+                                    Products that give you options but never cover you up, turn you into someone else,
+                                    or over-complicate your routine. Because beauty should make you feel good.
+                                </div>
+                                <a href="#"
+                                    class="cursor-pointer inline-flex relative items-center justify-center border rounded px-6 py-3.5 font-semibold bg-black hover:bg-gray-800 text-white mx-auto mb-16">Show
+                                    All Markup</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col lg:flex-row xl:flex-row lg:-mx-4 xl:-mx-4">
+                        <!-- Category Product List -->
+                        <div class="w-full">
+                            <ul class="CategoryProductList flex flex-wrap flex-start flex-shrink-1">
+                                <li class="w-1/2 lg:w-1/3 xl:w-1/3 px-2 lg:px-4 xl:px-4 mb-8 rounded">
+                                    <!-- Item -->
+                                    <div class="flex relative rounded flex-grow-1">
+                                        <div class="w-full">
+                                            <div class="">
+                                                <!-- Image -->
+                                                <div class="">
+                                                    <!-- Tags -->
+                                                    <span
+                                                        class="absolute top-2 right-2 rounded text-xs font-semibold bg-white px-2 py-1 opacity-75">Bestseller</span>
+                                                    <a href="#">
+                                                        <div class="ImageGif w-full ">
+                                                            <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/375/portrait_normal/pmr_main.jpg?1551586878=&w=600&q=80&fm=webp"
+                                                                alt="Products" class="w-full h-full">
+                                                            <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/376/portrait_normal/PMRcompressed.gif?1557167462=&w=600&q=80&fm=webp"
+                                                                alt="products gif" class="w-full h-full">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!-- Detail -->
+                                            <div class="flex flex-col p-2 pt-2.5 bg-gray-50 min-h-120px md:min-h-135px lg:min-h-143px xl:min-h-143px"
+                                                style="">
+                                                <div class="">
+                                                    <a href="#" class="hover:text-blue-500 hover:underline">
+                                                        <p class="lg:text-base xl:text-base text-sm font-semibold">
+                                                            Priming Moisturizer Rich
+                                                        </p>
+                                                        <p class="font-thin lg:text-sm xl:text-sm text-xs">
+                                                            luxurious face cream
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                                <div class="flex items-center mt-auto">
+                                                    <button
+                                                        class="w-full text-sm py-1 px-2 lg:px-4 lg:py-3 xl:px-4 xl:py-3 border hover:border-black rounded-sm bg-white">
+                                                        <div
+                                                            class="flex flex-col lg:flex-row xl:flex-row items-center justify-center lg:justify-between xl:justify-between">
+                                                            <span
+                                                                class="font-semibold text-sm lg:text-base xl:text-base">Add
+                                                                to bag</span>
+                                                            <div class="flex">
+                                                                <span
+                                                                    class="font-semibold text-sm lg:text-base xl:text-base">£29</span>
+                                                            </div>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="w-1/2 lg:w-1/3 xl:w-1/3 px-2 lg:px-4 xl:px-4 mb-8 rounded">
+                                    <!-- Item -->
+                                    <div class="flex relative rounded flex-grow-1">
+                                        <div class="w-full">
+                                            <div class="">
+                                                <!-- Image -->
+                                                <div class="">
+                                                    <!-- Tags -->
+                                                    <span
+                                                        class="absolute top-2 right-2 rounded text-xs font-semibold bg-white px-2 py-1 opacity-75">Bestseller</span>
+                                                    <a href="#">
+                                                        <div class="ImageGif w-full ">
+                                                            <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/375/portrait_normal/pmr_main.jpg?1551586878=&w=600&q=80&fm=webp"
+                                                                alt="Products" class="w-full h-full">
+                                                            <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/376/portrait_normal/PMRcompressed.gif?1557167462=&w=600&q=80&fm=webp"
+                                                                alt="products gif" class="w-full h-full">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!-- Detail -->
+                                            <div class="flex flex-col p-2 pt-2.5 bg-gray-50 min-h-120px md:min-h-135px lg:min-h-143px xl:min-h-143px"
+                                                style="">
+                                                <div class="">
+                                                    <a href="#" class="hover:text-blue-500 hover:underline">
+                                                        <p class="lg:text-base xl:text-base text-sm font-semibold">
+                                                            Priming Moisturizer Rich
+                                                        </p>
+                                                        <p class="font-thin lg:text-sm xl:text-sm text-xs">
+                                                            luxurious face cream
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                                <div class="flex items-center mt-auto">
+                                                    <button
+                                                        class="w-full text-sm py-1 px-2 lg:px-4 lg:py-3 xl:px-4 xl:py-3 border hover:border-black rounded-sm bg-white">
+                                                        <div
+                                                            class="flex flex-col lg:flex-row xl:flex-row items-center justify-center lg:justify-between xl:justify-between">
+                                                            <span
+                                                                class="font-semibold text-sm lg:text-base xl:text-base">Add
+                                                                to bag</span>
+                                                            <div class="flex">
+                                                                <span
+                                                                    class="font-semibold text-sm lg:text-base xl:text-base">£29</span>
+                                                            </div>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="w-1/2 lg:w-1/3 xl:w-1/3 px-2 lg:px-4 xl:px-4 mb-8 rounded">
+                                    <!-- Item -->
+                                    <div class="flex relative rounded flex-grow-1">
+                                        <div class="w-full">
+                                            <div class="">
+                                                <!-- Image -->
+                                                <div class="">
+                                                    <!-- Tags -->
+                                                    <span
+                                                        class="absolute top-2 right-2 rounded text-xs font-semibold bg-white px-2 py-1 opacity-75">Bestseller</span>
+                                                    <a href="#">
+                                                        <div class="ImageGif w-full ">
+                                                            <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/375/portrait_normal/pmr_main.jpg?1551586878=&w=600&q=80&fm=webp"
+                                                                alt="Products" class="w-full h-full">
+                                                            <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/376/portrait_normal/PMRcompressed.gif?1557167462=&w=600&q=80&fm=webp"
+                                                                alt="products gif" class="w-full h-full">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!-- Detail -->
+                                            <div class="flex flex-col p-2 pt-2.5 bg-gray-50 min-h-120px md:min-h-135px lg:min-h-143px xl:min-h-143px"
+                                                style="">
+                                                <div class="">
+                                                    <a href="#" class="hover:text-blue-500 hover:underline">
+                                                        <p class="lg:text-base xl:text-base text-sm font-semibold">
+                                                            Priming Moisturizer Rich
+                                                        </p>
+                                                        <p class="font-thin lg:text-sm xl:text-sm text-xs">
+                                                            luxurious face cream
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                                <div class="flex items-center mt-auto">
+                                                    <button
+                                                        class="w-full text-sm py-1 px-2 lg:px-4 lg:py-3 xl:px-4 xl:py-3 border hover:border-black rounded-sm bg-white">
+                                                        <div
+                                                            class="flex flex-col lg:flex-row xl:flex-row items-center justify-center lg:justify-between xl:justify-between">
+                                                            <span
+                                                                class="font-semibold text-sm lg:text-base xl:text-base">Add
+                                                                to bag</span>
+                                                            <div class="flex">
+                                                                <span
+                                                                    class="font-semibold text-sm lg:text-base xl:text-base">£29</span>
+                                                            </div>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="w-1/2 lg:w-1/3 xl:w-1/3 px-2 lg:px-4 xl:px-4 mb-8 rounded">
+                                    <!-- Item -->
+                                    <div class="flex relative rounded flex-grow-1">
+                                        <div class="w-full">
+                                            <div class="">
+                                                <!-- Image -->
+                                                <div class="">
+                                                    <!-- Tags -->
+                                                    <span
+                                                        class="absolute top-2 right-2 rounded text-xs font-semibold bg-white px-2 py-1 opacity-75">Bestseller</span>
+                                                    <a href="#">
+                                                        <div class="ImageGif w-full ">
+                                                            <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/375/portrait_normal/pmr_main.jpg?1551586878=&w=600&q=80&fm=webp"
+                                                                alt="Products" class="w-full h-full">
+                                                            <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/376/portrait_normal/PMRcompressed.gif?1557167462=&w=600&q=80&fm=webp"
+                                                                alt="products gif" class="w-full h-full">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!-- Detail -->
+                                            <div class="flex flex-col p-2 pt-2.5 bg-gray-50 min-h-120px md:min-h-135px lg:min-h-143px xl:min-h-143px"
+                                                style="">
+                                                <div class="">
+                                                    <a href="#" class="hover:text-blue-500 hover:underline">
+                                                        <p class="lg:text-base xl:text-base text-sm font-semibold">
+                                                            Priming Moisturizer Rich
+                                                        </p>
+                                                        <p class="font-thin lg:text-sm xl:text-sm text-xs">
+                                                            luxurious face cream
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                                <div class="flex items-center mt-auto">
+                                                    <button
+                                                        class="w-full text-sm py-1 px-2 lg:px-4 lg:py-3 xl:px-4 xl:py-3 border hover:border-black rounded-sm bg-white">
+                                                        <div
+                                                            class="flex flex-col lg:flex-row xl:flex-row items-center justify-center lg:justify-between xl:justify-between">
+                                                            <span
+                                                                class="font-semibold text-sm lg:text-base xl:text-base">Add
+                                                                to bag</span>
+                                                            <div class="flex">
+                                                                <span
+                                                                    class="font-semibold text-sm lg:text-base xl:text-base">£29</span>
+                                                            </div>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="w-1/2 lg:w-1/3 xl:w-1/3 px-2 lg:px-4 xl:px-4 mb-8 rounded">
+                                    <!-- Item -->
+                                    <div class="flex relative rounded flex-grow-1">
+                                        <div class="w-full">
+                                            <div class="">
+                                                <!-- Image -->
+                                                <div class="">
+                                                    <!-- Tags -->
+                                                    <span
+                                                        class="absolute top-2 right-2 rounded text-xs font-semibold bg-white px-2 py-1 opacity-75">Bestseller</span>
+                                                    <a href="#">
+                                                        <div class="ImageGif w-full ">
+                                                            <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/375/portrait_normal/pmr_main.jpg?1551586878=&w=600&q=80&fm=webp"
+                                                                alt="Products" class="w-full h-full">
+                                                            <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/376/portrait_normal/PMRcompressed.gif?1557167462=&w=600&q=80&fm=webp"
+                                                                alt="products gif" class="w-full h-full">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!-- Detail -->
+                                            <div class="flex flex-col p-2 pt-2.5 bg-gray-50 min-h-120px md:min-h-135px lg:min-h-143px xl:min-h-143px"
+                                                style="">
+                                                <div class="">
+                                                    <a href="#" class="hover:text-blue-500 hover:underline">
+                                                        <p class="lg:text-base xl:text-base text-sm font-semibold">
+                                                            Priming Moisturizer Rich
+                                                        </p>
+                                                        <p class="font-thin lg:text-sm xl:text-sm text-xs">
+                                                            luxurious face cream
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                                <div class="flex items-center mt-auto">
+                                                    <button
+                                                        class="w-full text-sm py-1 px-2 lg:px-4 lg:py-3 xl:px-4 xl:py-3 border hover:border-black rounded-sm bg-white">
+                                                        <div
+                                                            class="flex flex-col lg:flex-row xl:flex-row items-center justify-center lg:justify-between xl:justify-between">
+                                                            <span
+                                                                class="font-semibold text-sm lg:text-base xl:text-base">Add
+                                                                to bag</span>
+                                                            <div class="flex">
+                                                                <span
+                                                                    class="font-semibold text-sm lg:text-base xl:text-base">£29</span>
+                                                            </div>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="w-1/2 lg:w-1/3 xl:w-1/3 px-2 lg:px-4 xl:px-4 mb-8 rounded">
+                                    <!-- Item -->
+                                    <div class="flex relative rounded flex-grow-1">
+                                        <div class="w-full">
+                                            <div class="">
+                                                <!-- Image -->
+                                                <div class="">
+                                                    <!-- Tags -->
+                                                    <span
+                                                        class="absolute top-2 right-2 rounded text-xs font-semibold bg-white px-2 py-1 opacity-75">Bestseller</span>
+                                                    <a href="#">
+                                                        <div class="ImageGif w-full ">
+                                                            <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/375/portrait_normal/pmr_main.jpg?1551586878=&w=600&q=80&fm=webp"
+                                                                alt="Products" class="w-full h-full">
+                                                            <img src="https://static-assets.glossier.com/production/spree/images/attachments/000/003/376/portrait_normal/PMRcompressed.gif?1557167462=&w=600&q=80&fm=webp"
+                                                                alt="products gif" class="w-full h-full">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!-- Detail -->
+                                            <div class="flex flex-col p-2 pt-2.5 bg-gray-50 min-h-120px md:min-h-135px lg:min-h-143px xl:min-h-143px"
+                                                style="">
+                                                <div class="">
+                                                    <a href="#" class="hover:text-blue-500 hover:underline">
+                                                        <p class="lg:text-base xl:text-base text-sm font-semibold">
+                                                            Priming Moisturizer Rich
+                                                        </p>
+                                                        <p class="font-thin lg:text-sm xl:text-sm text-xs">
+                                                            luxurious face cream
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                                <div class="flex items-center mt-auto">
+                                                    <button
+                                                        class="w-full text-sm py-1 px-2 lg:px-4 lg:py-3 xl:px-4 xl:py-3 border hover:border-black rounded-sm bg-white">
+                                                        <div
+                                                            class="flex flex-col lg:flex-row xl:flex-row items-center justify-center lg:justify-between xl:justify-between">
+                                                            <span
+                                                                class="font-semibold text-sm lg:text-base xl:text-base">Add
+                                                                to bag</span>
+                                                            <div class="flex">
+                                                                <span
+                                                                    class="font-semibold text-sm lg:text-base xl:text-base">£29</span>
+                                                            </div>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="w-full xl:w-3/5 lg:w-3/5 lg:pl-4 xl:pl-4 px-2 h-auto mb-8">
+                            <div class="w-full h-full">
+                                <div class="bg-cover bg-center lg:bg-top-left xl:bg-top-left w-full lg:h-full xl:h-full bg-gray-50 bg-no-repeat h-64"
+                                    style="background-image: url('https://images.ctfassets.net/p3w8f4svwgcg/7m9Yd5o90sCuVEFsiRlZic/fa318c31213cc27297d11c8de47eb416/NewHP_Makeup_Enga.jpg?w=600&q=80&fm=webp');">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END MAKE UP SECOND -->
+
+            <!-- ABOUT GLOSSIER -->
+            <div class="w-full">
+                <div class="bg-red-100 py-14 px-4">
+                    <div class="container">
+                        <h2 class="text-2xl lg:text-3xl xl:text-3xl text-center lg:text-left mb-14 font-semibold">About
+                            <i>Glossier</i>
+                        </h2>
+
+                        <div class="w-full">
+                            <!-- Mobile -->
+                            <div class="block lg:hidden xl:hidden w-full">
+                                <div x-data="{active: 0}">
+                                    <div class="snap overflow-auto relative flex-no-wrap flex transition-all -mx-4"
+                                        x-ref="slider"
+                                        x-on:scroll.debounce="active = Math.round($event.target.scrollLeft / ($event.target.scrollWidth / items.length))">
+                                        <!-- <template x-for="(item,index) in items" :key="index">
+                                            <div
+                                                class="w-full flex-shrink-0 h-32 bg-black text-white flex items-center justify-center">
+                                                <span x-text="item"></span>
+                                            </div>
+                                        </template> -->
+                                        <div class="w-full flex-shrink-0 flex items-center justify-center">
+                                            <!-- item -->
+                                            <div class="w-full">
+                                                <div class="flex flex-col items-start ">
+                                                    <img src="https://images.ctfassets.net/p3w8f4svwgcg/7f1uo2wuLll6c1Fz1bt3Qc/346f392df86a664bc844b8c151062ece/icon-smile.svg"
+                                                        alt="" class="w-8 h-8 mb-4 mx-auto">
+                                                    <p class="text-center text-sm">We got our start with
+                                                        Into The Gloss, the world’s
+                                                        best beauty website and our source for inspiration and
+                                                        information.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w-full flex-shrink-0 flex items-center justify-center">
+                                            <!-- item -->
+                                            <div class="w-full">
+                                                <div class="flex flex-col items-start ">
+                                                    <img src="https://images.ctfassets.net/p3w8f4svwgcg/9SvmYXc4c4rXROPJep3xr/649ea985771bd78d3cad59e4c439bd3b/lip.svg"
+                                                        alt="" class="w-8 h-8 mb-4 mx-auto">
+                                                    <p class="text-center text-sm">As beauty editors, we’ve tried it
+                                                        all. We make
+                                                        our
+                                                        dream everyday products that don’t yet exist, are fun to use,
+                                                        and
+                                                        actually
+                                                        work.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w-full flex-shrink-0 flex items-center justify-center">
+                                            <!-- item -->
+                                            <div class="w-full">
+                                                <div class="flex flex-col items-start ">
+                                                    <img src="https://images.ctfassets.net/p3w8f4svwgcg/7EMG9OY0YBZmflEtFkAMZh/ae82ccb661a64d9c57cea295025ce511/bolt.svg"
+                                                        alt="" class="w-8 h-8 mb-4 mx-auto">
+                                                    <p class="text-center text-sm">We stay in constant communication
+                                                        with real
+                                                        Glossier users to give you what you want (and because we enjoy
+                                                        it).</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Laptop -->
+                            <div class="hidden lg:block xl:block flex flex-wrap flex-shrink-1 w-full box-border">
+                                <div class="flex">
+                                    <!-- item -->
+                                    <div class="w-1/3 pr-14 box-border ">
+                                        <div class="flex flex-col items-start ">
+                                            <img src="https://images.ctfassets.net/p3w8f4svwgcg/7f1uo2wuLll6c1Fz1bt3Qc/346f392df86a664bc844b8c151062ece/icon-smile.svg"
+                                                alt="" class="w-8 h-8 mb-4">
+                                            <p class="text-left text-sm">We got our start with
+                                                Into The Gloss, the world’s
+                                                best beauty website and our source for inspiration and information.</p>
+                                        </div>
+                                    </div>
+                                    <!-- item -->
+                                    <div class="w-1/3 pr-14 box-border ">
+                                        <div class="flex flex-col items-start">
+                                            <img src="https://images.ctfassets.net/p3w8f4svwgcg/9SvmYXc4c4rXROPJep3xr/649ea985771bd78d3cad59e4c439bd3b/lip.svg"
+                                                alt="" class="w-8 h-8 mb-4">
+                                            <p class="text-left text-sm">As beauty editors, we’ve tried it all. We make
+                                                our
+                                                dream everyday products that don’t yet exist, are fun to use, and
+                                                actually
+                                                work.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- item -->
+                                    <div class="w-1/3 pr-14 box-border ">
+                                        <div class="flex flex-col items-start">
+                                            <img src="https://images.ctfassets.net/p3w8f4svwgcg/7EMG9OY0YBZmflEtFkAMZh/ae82ccb661a64d9c57cea295025ce511/bolt.svg"
+                                                alt="" class="w-8 h-8 mb-4">
+                                            <p class="text-left text-sm">We stay in constant communication with real
+                                                Glossier users to give you what you want (and because we enjoy it).
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END ABOUT GLOSSIER -->
+
+            <!-- TABS -->
+            <div class="w-full bg-white" x-data="{active: 'vouge'}">
+                <div class="container py-14 px-4">
+                    <!-- contents -->
+                    <div class="flex flex-wrap flex-shrink-1">
+                        <div class="block w-full lg:w-2/3 xl:w-2/3 mx-auto">
+                            <h2
+                                class="font-thin italic text-center text-black text-2xl xl:text-4xl lg:text-4xl font-primary-serif mb-8 transform duration-200">
+                                <span x-show="active === 'vouge'">“Revolutionary for its time, harnessing a certain
+                                    come-as-you-are acceptance.”</span>
+                                <span x-show="active === 'time'">“Allow(s) women to look like the best version of
+                                    themselves, not an aspirational version of someone else.”</span>
+                                <span x-show="active === 'bof'">“In an age of online access and unending choice,
+                                    customer
+                                    engagement is something that Glossier has gotten right.”</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <!-- tabs -->
+                    <div class="flex flex-wrap flex-shrink-1">
+                        <div class="w-1/3 flex justify-center group">
+                            <button class="cursor-pointer font-semibold text-center p-2" @mouseenter="active = 'vouge'">
+                                <img src="https://images.ctfassets.net/p3w8f4svwgcg/2VRypUSfkd5umFObc5XDWM/903dbcd7d89e3d8740cc5b3a1f6f27f7/vogue-logo.svg"
+                                    alt="" class="w-auto h-5 lg:h-10 xl:h-10 mx-auto">
+                                <div class="opacity-0 group-hover:opacity-100 bg-blue-700 w-8 h-1 my-5 mx-auto"></div>
+                            </button>
+                        </div>
+                        <div class="w-1/3 flex justify-center group">
+                            <button class="cursor-pointer font-semibold text-center p-2" @mouseenter="active = 'time'">
+                                <img src="https://images.ctfassets.net/p3w8f4svwgcg/5C069nITkSiitOoUT5ra1e/ad21e22e1db12e7b0720b154e6c195df/time-logo.svg"
+                                    alt="" class="w-auto h-5 lg:h-10 xl:h-10 mx-auto">
+                                <div class="opacity-0 group-hover:opacity-100 bg-blue-700 w-8 h-1 my-5 mx-auto"></div>
+                            </button>
+                        </div>
+                        <div class="w-1/3 flex justify-center group">
+                            <button class="cursor-pointer font-semibold text-center p-2" @mouseenter="active = 'bof'">
+                                <img src="https://images.ctfassets.net/p3w8f4svwgcg/4UT9348agrMoRs5vLwRPe9/7d3b5e147cedbc65559334b272157490/bof-logo.svg"
+                                    alt="" class="w-auto mx-auto h-5 lg:h-10 xl:h-10">
+                                <div class="opacity-0 group-hover:opacity-100 bg-blue-700 w-8 h-1 my-5 mx-auto"></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END TABS -->
+        </main>
+    </div>
+    <!-- ALPINEJS -->
+    <script src="../assets/js/transitionAlpine.js"></script>
+</body>
+
+</html>
