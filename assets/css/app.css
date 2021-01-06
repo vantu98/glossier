@@ -640,23 +640,19 @@ video {
   }
 }
 
-/* lg screen */
-
-.min-w-scrollItem{
-  min-width: 50%;
+.scrollListBasis {
+  flex: 0 0 50%;
 }
 
-/* xl screen */
-
-@media only screen and (min-width: 1280px){
-  .min-w-scrollItem{
-    min-width: 20%;
+@media screen and (min-width: 1024px) {
+  .scrollListBasis {
+    flex: 0 0 33.33%;
   }
 }
 
-@media only screen and (min-width: 1024px){
-  .min-w-scrollItem{
-    min-width: 30%;
+@media screen and (min-width: 1280px) {
+  .scrollListBasis {
+    flex: 0 0 20%;
   }
 }
 
