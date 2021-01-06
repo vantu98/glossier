@@ -626,9 +626,37 @@ video {
   display: block;
 }
 
+.ProductListItem:hover .QuickView{
+  display: block;
+}
+
+.QuickView{
+  display: none;
+}
+
 @media only screen and (max-width: 640px) {
   .CategoryProductList li:nth-child(n+5){
     display: none;
+  }
+}
+
+/* lg screen */
+
+.min-w-scrollItem{
+  min-width: 50%;
+}
+
+/* xl screen */
+
+@media only screen and (min-width: 1280px){
+  .min-w-scrollItem{
+    min-width: 20%;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .min-w-scrollItem{
+    min-width: 30%;
   }
 }
 
