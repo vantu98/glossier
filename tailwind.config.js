@@ -7,6 +7,7 @@ module.exports = {
         "primary-serif": ["Playfair Display"],
       },
       minHeight: {
+        "40px": "40px",
         "120px": "120px",
         "135px": "135px",
         "143px": "143px",
@@ -24,8 +25,11 @@ module.exports = {
       letterSpacing: {
         "1px": "1px",
       },
-      minHeight: {
-        "40px": "40px",
+      height: {
+        "19px": "19px",
+      },
+      borderRadius: {
+        "3px": "3px",
       },
     },
     container: {
