@@ -563,18 +563,24 @@ video {
 @media (min-width: 768px){
   .container{
     max-width: 768px;
+    padding-right: 36px;
+    padding-left: 36px;
   }
 }
 
 @media (min-width: 1024px){
   .container{
     max-width: 1024px;
+    padding-right: 56px;
+    padding-left: 56px;
   }
 }
 
 @media (min-width: 1280px){
   .container{
     max-width: 1280px;
+    padding-right: 56px;
+    padding-left: 56px;
   }
 }
 
@@ -11744,6 +11750,10 @@ video {
   line-height: 1;
 }
 
+.text-11px{
+  font-size: 11px;
+}
+
 .leading-3{
   line-height: .75rem;
 }
@@ -11798,6 +11808,10 @@ video {
 
 .leading-loose{
   line-height: 2;
+}
+
+.leading-11px{
+  line-height: 11px;
 }
 
 .list-inside{
@@ -14202,16 +14216,8 @@ video {
   min-height: 100vh;
 }
 
-.min-h-120px{
-  min-height: 120px;
-}
-
-.min-h-135px{
-  min-height: 135px;
-}
-
-.min-h-143px{
-  min-height: 143px;
+.min-h-40px{
+  min-height: 40px;
 }
 
 .min-w-0{
@@ -31408,18 +31414,24 @@ video {
   @media (min-width: 768px){
     .sm\:container{
       max-width: 768px;
+      padding-right: 36px;
+      padding-left: 36px;
     }
   }
 
   @media (min-width: 1024px){
     .sm\:container{
       max-width: 1024px;
+      padding-right: 56px;
+      padding-left: 56px;
     }
   }
 
   @media (min-width: 1280px){
     .sm\:container{
       max-width: 1280px;
+      padding-right: 56px;
+      padding-left: 56px;
     }
   }
 
@@ -42409,6 +42421,10 @@ video {
     line-height: 1;
   }
 
+  .sm\:text-11px{
+    font-size: 11px;
+  }
+
   .sm\:leading-3{
     line-height: .75rem;
   }
@@ -42463,6 +42479,10 @@ video {
 
   .sm\:leading-loose{
     line-height: 2;
+  }
+
+  .sm\:leading-11px{
+    line-height: 11px;
   }
 
   .sm\:list-inside{
@@ -44867,16 +44887,8 @@ video {
     min-height: 100vh;
   }
 
-  .sm\:min-h-120px{
-    min-height: 120px;
-  }
-
-  .sm\:min-h-135px{
-    min-height: 135px;
-  }
-
-  .sm\:min-h-143px{
-    min-height: 143px;
+  .sm\:min-h-40px{
+    min-height: 40px;
   }
 
   .sm\:min-w-0{
@@ -61995,18 +62007,24 @@ video {
   @media (min-width: 768px){
     .md\:container{
       max-width: 768px;
+      padding-right: 36px;
+      padding-left: 36px;
     }
   }
 
   @media (min-width: 1024px){
     .md\:container{
       max-width: 1024px;
+      padding-right: 56px;
+      padding-left: 56px;
     }
   }
 
   @media (min-width: 1280px){
     .md\:container{
       max-width: 1280px;
+      padding-right: 56px;
+      padding-left: 56px;
     }
   }
 
@@ -72996,6 +73014,10 @@ video {
     line-height: 1;
   }
 
+  .md\:text-11px{
+    font-size: 11px;
+  }
+
   .md\:leading-3{
     line-height: .75rem;
   }
@@ -73050,6 +73072,10 @@ video {
 
   .md\:leading-loose{
     line-height: 2;
+  }
+
+  .md\:leading-11px{
+    line-height: 11px;
   }
 
   .md\:list-inside{
@@ -75454,16 +75480,8 @@ video {
     min-height: 100vh;
   }
 
-  .md\:min-h-120px{
-    min-height: 120px;
-  }
-
-  .md\:min-h-135px{
-    min-height: 135px;
-  }
-
-  .md\:min-h-143px{
-    min-height: 143px;
+  .md\:min-h-40px{
+    min-height: 40px;
   }
 
   .md\:min-w-0{
@@ -92582,18 +92600,24 @@ video {
   @media (min-width: 768px){
     .lg\:container{
       max-width: 768px;
+      padding-right: 36px;
+      padding-left: 36px;
     }
   }
 
   @media (min-width: 1024px){
     .lg\:container{
       max-width: 1024px;
+      padding-right: 56px;
+      padding-left: 56px;
     }
   }
 
   @media (min-width: 1280px){
     .lg\:container{
       max-width: 1280px;
+      padding-right: 56px;
+      padding-left: 56px;
     }
   }
 
@@ -103583,6 +103607,10 @@ video {
     line-height: 1;
   }
 
+  .lg\:text-11px{
+    font-size: 11px;
+  }
+
   .lg\:leading-3{
     line-height: .75rem;
   }
@@ -103637,6 +103665,10 @@ video {
 
   .lg\:leading-loose{
     line-height: 2;
+  }
+
+  .lg\:leading-11px{
+    line-height: 11px;
   }
 
   .lg\:list-inside{
@@ -106041,16 +106073,8 @@ video {
     min-height: 100vh;
   }
 
-  .lg\:min-h-120px{
-    min-height: 120px;
-  }
-
-  .lg\:min-h-135px{
-    min-height: 135px;
-  }
-
-  .lg\:min-h-143px{
-    min-height: 143px;
+  .lg\:min-h-40px{
+    min-height: 40px;
   }
 
   .lg\:min-w-0{
@@ -123169,18 +123193,24 @@ video {
   @media (min-width: 768px){
     .xl\:container{
       max-width: 768px;
+      padding-right: 36px;
+      padding-left: 36px;
     }
   }
 
   @media (min-width: 1024px){
     .xl\:container{
       max-width: 1024px;
+      padding-right: 56px;
+      padding-left: 56px;
     }
   }
 
   @media (min-width: 1280px){
     .xl\:container{
       max-width: 1280px;
+      padding-right: 56px;
+      padding-left: 56px;
     }
   }
 
@@ -134170,6 +134200,10 @@ video {
     line-height: 1;
   }
 
+  .xl\:text-11px{
+    font-size: 11px;
+  }
+
   .xl\:leading-3{
     line-height: .75rem;
   }
@@ -134224,6 +134258,10 @@ video {
 
   .xl\:leading-loose{
     line-height: 2;
+  }
+
+  .xl\:leading-11px{
+    line-height: 11px;
   }
 
   .xl\:list-inside{
@@ -136628,16 +136666,8 @@ video {
     min-height: 100vh;
   }
 
-  .xl\:min-h-120px{
-    min-height: 120px;
-  }
-
-  .xl\:min-h-135px{
-    min-height: 135px;
-  }
-
-  .xl\:min-h-143px{
-    min-height: 143px;
+  .xl\:min-h-40px{
+    min-height: 40px;
   }
 
   .xl\:min-w-0{
@@ -153756,18 +153786,24 @@ video {
   @media (min-width: 768px){
     .\32xl\:container{
       max-width: 768px;
+      padding-right: 36px;
+      padding-left: 36px;
     }
   }
 
   @media (min-width: 1024px){
     .\32xl\:container{
       max-width: 1024px;
+      padding-right: 56px;
+      padding-left: 56px;
     }
   }
 
   @media (min-width: 1280px){
     .\32xl\:container{
       max-width: 1280px;
+      padding-right: 56px;
+      padding-left: 56px;
     }
   }
 
@@ -164757,6 +164793,10 @@ video {
     line-height: 1;
   }
 
+  .\32xl\:text-11px{
+    font-size: 11px;
+  }
+
   .\32xl\:leading-3{
     line-height: .75rem;
   }
@@ -164811,6 +164851,10 @@ video {
 
   .\32xl\:leading-loose{
     line-height: 2;
+  }
+
+  .\32xl\:leading-11px{
+    line-height: 11px;
   }
 
   .\32xl\:list-inside{
@@ -167215,16 +167259,8 @@ video {
     min-height: 100vh;
   }
 
-  .\32xl\:min-h-120px{
-    min-height: 120px;
-  }
-
-  .\32xl\:min-h-135px{
-    min-height: 135px;
-  }
-
-  .\32xl\:min-h-143px{
-    min-height: 143px;
+  .\32xl\:min-h-40px{
+    min-height: 40px;
   }
 
   .\32xl\:min-w-0{

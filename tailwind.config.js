@@ -14,10 +14,23 @@ module.exports = {
       backgroundColor: {
         "banner-red": "#F5E3E7",
       },
+      fontSize: {
+        "11px": "11px",
+      },
+      lineHeight: {
+        "11px": "11px",
+      },
+      minHeight: {
+        "40px": "40px",
+      },
     },
     container: {
       center: true,
-      padding: {},
+      padding: {
+        md: "36px",
+        lg: "56px",
+        xl: "56px",
+      },
     },
     screen: {
       sm: "640px",
