@@ -16,9 +16,11 @@ module.exports = {
         "banner-red": "#F5E3E7",
         "section-red": "#FAF2F4",
         "red-section": "#FAF2F4",
+        "gray-item": "#FAFAFA",
       },
       textColor: {
         "hover-purple": "#5858FF",
+        "gray-sub": "#555555",
       },
       fontSize: {
         "11px": "11px",
