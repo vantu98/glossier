@@ -557,6 +557,8 @@ video {
 @media (min-width: 640px){
   .container{
     max-width: 640px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
 }
 
@@ -571,8 +573,8 @@ video {
 @media (min-width: 1024px){
   .container{
     max-width: 1024px;
-    padding-right: 56px;
-    padding-left: 56px;
+    padding-right: 48px;
+    padding-left: 48px;
   }
 }
 
@@ -11812,6 +11814,10 @@ video {
 
 .leading-11px{
   line-height: 11px;
+}
+
+.leading-14px{
+  line-height: 14px;
 }
 
 .list-inside{
@@ -26956,6 +26962,10 @@ video {
   letter-spacing: 0.1em;
 }
 
+.tracking-1px{
+  letter-spacing: 1px;
+}
+
 .select-none{
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -31408,6 +31418,8 @@ video {
   @media (min-width: 640px){
     .sm\:container{
       max-width: 640px;
+      padding-right: 16px;
+      padding-left: 16px;
     }
   }
 
@@ -31422,8 +31434,8 @@ video {
   @media (min-width: 1024px){
     .sm\:container{
       max-width: 1024px;
-      padding-right: 56px;
-      padding-left: 56px;
+      padding-right: 48px;
+      padding-left: 48px;
     }
   }
 
@@ -42483,6 +42495,10 @@ video {
 
   .sm\:leading-11px{
     line-height: 11px;
+  }
+
+  .sm\:leading-14px{
+    line-height: 14px;
   }
 
   .sm\:list-inside{
@@ -57614,6 +57630,10 @@ video {
     letter-spacing: 0.1em;
   }
 
+  .sm\:tracking-1px{
+    letter-spacing: 1px;
+  }
+
   .sm\:select-none{
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -62001,6 +62021,8 @@ video {
   @media (min-width: 640px){
     .md\:container{
       max-width: 640px;
+      padding-right: 16px;
+      padding-left: 16px;
     }
   }
 
@@ -62015,8 +62037,8 @@ video {
   @media (min-width: 1024px){
     .md\:container{
       max-width: 1024px;
-      padding-right: 56px;
-      padding-left: 56px;
+      padding-right: 48px;
+      padding-left: 48px;
     }
   }
 
@@ -73076,6 +73098,10 @@ video {
 
   .md\:leading-11px{
     line-height: 11px;
+  }
+
+  .md\:leading-14px{
+    line-height: 14px;
   }
 
   .md\:list-inside{
@@ -88207,6 +88233,10 @@ video {
     letter-spacing: 0.1em;
   }
 
+  .md\:tracking-1px{
+    letter-spacing: 1px;
+  }
+
   .md\:select-none{
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -92594,6 +92624,8 @@ video {
   @media (min-width: 640px){
     .lg\:container{
       max-width: 640px;
+      padding-right: 16px;
+      padding-left: 16px;
     }
   }
 
@@ -92608,8 +92640,8 @@ video {
   @media (min-width: 1024px){
     .lg\:container{
       max-width: 1024px;
-      padding-right: 56px;
-      padding-left: 56px;
+      padding-right: 48px;
+      padding-left: 48px;
     }
   }
 
@@ -103669,6 +103701,10 @@ video {
 
   .lg\:leading-11px{
     line-height: 11px;
+  }
+
+  .lg\:leading-14px{
+    line-height: 14px;
   }
 
   .lg\:list-inside{
@@ -118800,6 +118836,10 @@ video {
     letter-spacing: 0.1em;
   }
 
+  .lg\:tracking-1px{
+    letter-spacing: 1px;
+  }
+
   .lg\:select-none{
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -123187,6 +123227,8 @@ video {
   @media (min-width: 640px){
     .xl\:container{
       max-width: 640px;
+      padding-right: 16px;
+      padding-left: 16px;
     }
   }
 
@@ -123201,8 +123243,8 @@ video {
   @media (min-width: 1024px){
     .xl\:container{
       max-width: 1024px;
-      padding-right: 56px;
-      padding-left: 56px;
+      padding-right: 48px;
+      padding-left: 48px;
     }
   }
 
@@ -134262,6 +134304,10 @@ video {
 
   .xl\:leading-11px{
     line-height: 11px;
+  }
+
+  .xl\:leading-14px{
+    line-height: 14px;
   }
 
   .xl\:list-inside{
@@ -149393,6 +149439,10 @@ video {
     letter-spacing: 0.1em;
   }
 
+  .xl\:tracking-1px{
+    letter-spacing: 1px;
+  }
+
   .xl\:select-none{
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -153780,6 +153830,8 @@ video {
   @media (min-width: 640px){
     .\32xl\:container{
       max-width: 640px;
+      padding-right: 16px;
+      padding-left: 16px;
     }
   }
 
@@ -153794,8 +153846,8 @@ video {
   @media (min-width: 1024px){
     .\32xl\:container{
       max-width: 1024px;
-      padding-right: 56px;
-      padding-left: 56px;
+      padding-right: 48px;
+      padding-left: 48px;
     }
   }
 
@@ -164855,6 +164907,10 @@ video {
 
   .\32xl\:leading-11px{
     line-height: 11px;
+  }
+
+  .\32xl\:leading-14px{
+    line-height: 14px;
   }
 
   .\32xl\:list-inside{
@@ -179984,6 +180040,10 @@ video {
 
   .\32xl\:tracking-widest{
     letter-spacing: 0.1em;
+  }
+
+  .\32xl\:tracking-1px{
+    letter-spacing: 1px;
   }
 
   .\32xl\:select-none{

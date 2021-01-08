@@ -19,6 +19,10 @@ module.exports = {
       },
       lineHeight: {
         "11px": "11px",
+        "14px": "14px",
+      },
+      letterSpacing: {
+        "1px": "1px",
       },
       minHeight: {
         "40px": "40px",
@@ -27,18 +31,19 @@ module.exports = {
     container: {
       center: true,
       padding: {
+        sm: "16px",
         md: "36px",
-        lg: "56px",
+        lg: "48px",
         xl: "56px",
       },
     },
-    screen: {
-      sm: "640px",
-      md: "768px",
-      lg: "1024px",
-      xl: "1152px",
-      "2xl": "1536px",
-    },
+    // screens: {
+    //   sm: "640px",
+    //   md: "768px",
+    //   lg: "1024px",
+    //   xl: "1152px",
+    //   "2xl": "1536px",
+    // },
   },
   variants: {
     extend: {},
