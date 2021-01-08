@@ -652,6 +652,12 @@ video {
   flex: 0 0 40%;
 }
 
+@media screen and (min-width: 768px){
+  .scrollListBasis{
+    flex: 0 0 30%;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .scrollListBasis {
     flex: 0 0 33.33%;
@@ -779,13 +785,14 @@ video {
 ::-webkit-scrollbar {
   height: 3px;
   width: 3px;
-  border-radius: 50%;
+  border-radius: 5px;
 }
 
 /* Track */
 
 ::-webkit-scrollbar-track {
   background: #F5F5F5;
+  border-radius: 5px;
 }
 
 /* Handle */
