@@ -11,10 +11,20 @@ module.exports = {
         "135px": "135px",
         "143px": "143px",
       },
+      backgroundColor: {
+        "banner-red": "#F5E3E7",
+      },
     },
     container: {
       center: true,
       padding: {},
+    },
+    screen: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1152px",
+      "2xl": "1536px",
     },
   },
   variants: {
