@@ -38,6 +38,9 @@ module.exports = {
       borderRadius: {
         "3px": "3px",
       },
+      zIndex: {
+        "-10": "-10",
+      },
     },
     container: {
       center: true,
