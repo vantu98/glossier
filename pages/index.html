@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div id="root" x-data="transitionAlpine()">
+    <div id="root" x-data="transitionAlpine()" class="font-primary-sans">
         <header class="w-full sticky top-0 bg-white z-40 relative" @scroll.window="isScrollAtTop()">
             <!-- Top notification -->
             <div class="w-full h-full bg-banner-red relative ">
@@ -40,7 +40,7 @@
                     </svg>
                     <span class="inline-block text-black font-medium ml-2">
                         <a href="#"
-                            class="hover:text-blue-500 leading-4 cursor-pointer text-xs md:text-sm lg:text-sm xl:text-sm underline">
+                            class="hover:text-hover-purple leading-4 cursor-pointer text-xs md:text-sm lg:text-sm xl:text-sm underline">
                             It’s the last week to shop our holiday exclusive sets!
                         </a>
                     </span>
@@ -106,7 +106,7 @@
                         <li class="flex flex-col text-center justify-center px-1 hover:text-indigo-700">
                             <button x-on:click="sidecartOpen()"
                                 class="relative flex items-center hover:text-indigo-700 cursor-pointer">
-                                <div id="cartQuantity" class="absolute w-full text-xs"
+                                <div id="cartQuantity" class="absolute w-full text-xs pt-1"
                                     style="top: 50%; transform: translate(0,-50%);">0</div>
                                 <svg aria-hidden="true" width="26px" height="26px" viewBox="0 0 29 21"
                                     transform="rotate(0)" class="">
@@ -238,7 +238,7 @@
 
                                                             <div class="w-3/4">
                                                                 <a href="#"
-                                                                    class="text-sm font-semibold hover:text-blue-500 py-1">
+                                                                    class="text-sm font-semibold hover:text-hover-purple py-1">
                                                                     Balm Dotcom
                                                                     <span class="font-medium block">universal
                                                                         skin
@@ -266,7 +266,7 @@
 
                                                             <div class="w-3/4">
                                                                 <a href="#"
-                                                                    class="text-sm font-semibold hover:text-blue-500 py-1">
+                                                                    class="text-sm font-semibold hover:text-hover-purple py-1">
                                                                     Balm Dotcom
                                                                     <span class="font-medium block">universal
                                                                         skin
@@ -294,7 +294,7 @@
 
                                                             <div class="w-3/4">
                                                                 <a href="#"
-                                                                    class="text-sm font-semibold hover:text-blue-500 py-1">
+                                                                    class="text-sm font-semibold hover:text-hover-purple py-1">
                                                                     Balm Dotcom
                                                                     <span class="font-medium block">universal
                                                                         skin
@@ -322,7 +322,7 @@
 
                                                             <div class="w-3/4">
                                                                 <a href="#"
-                                                                    class="text-sm font-semibold hover:text-blue-500 py-1">
+                                                                    class="text-sm font-semibold hover:text-hover-purple py-1">
                                                                     Balm Dotcom
                                                                     <span class="font-medium block">universal
                                                                         skin
@@ -352,43 +352,45 @@
                                                         <ul>
                                                             <li>
                                                                 <button>
-                                                                    <p class="mb-1.5 hover:text-blue-500">cloud paint
+                                                                    <p class="mb-1.5 hover:text-hover-purple">cloud
+                                                                        paint
                                                                     </p>
                                                                 </button>
                                                             </li>
                                                             <li>
                                                                 <button>
-                                                                    <p class="mb-1.5 hover:text-blue-500">balm
+                                                                    <p class="mb-1.5 hover:text-hover-purple">balm
                                                                     </p>
                                                                 </button>
                                                             </li>
                                                             <li>
                                                                 <button>
-                                                                    <p class="mb-1.5 hover:text-blue-500">lip
+                                                                    <p class="mb-1.5 hover:text-hover-purple">lip
                                                                     </p>
                                                                 </button>
                                                             </li>
                                                             <li>
                                                                 <button>
-                                                                    <p class="mb-1.5 hover:text-blue-500">boy grow
+                                                                    <p class="mb-1.5 hover:text-hover-purple">boy grow
                                                                     </p>
                                                                 </button>
                                                             </li>
                                                             <li>
                                                                 <button>
-                                                                    <p class="mb-1.5 hover:text-blue-500">lip gross
+                                                                    <p class="mb-1.5 hover:text-hover-purple">lip gross
                                                                     </p>
                                                                 </button>
                                                             </li>
                                                             <li>
                                                                 <button>
-                                                                    <p class="mb-1.5 hover:text-blue-500">mascara
+                                                                    <p class="mb-1.5 hover:text-hover-purple">mascara
                                                                     </p>
                                                                 </button>
                                                             </li>
                                                             <li>
                                                                 <button>
-                                                                    <p class="mb-1.5 hover:text-blue-500">moisturizer
+                                                                    <p class="mb-1.5 hover:text-hover-purple">
+                                                                        moisturizer
                                                                     </p>
                                                                 </button>
                                                             </li>
@@ -423,7 +425,7 @@
 
                                                                     <div class="w-full mt-4">
                                                                         <a href="#"
-                                                                            class="text-sm font-semibold hover:text-blue-500 py-1">
+                                                                            class="text-sm font-semibold hover:text-hover-purple py-1">
                                                                             Balm Dotcom
                                                                             <span class="font-medium block">universal
                                                                                 skin
@@ -453,7 +455,7 @@
 
                                                                     <div class="w-full mt-4">
                                                                         <a href="#"
-                                                                            class="text-sm font-semibold hover:text-blue-500 py-1">
+                                                                            class="text-sm font-semibold hover:text-hover-purple py-1">
                                                                             Balm Dotcom
                                                                             <span class="font-medium block">universal
                                                                                 skin
@@ -483,7 +485,7 @@
 
                                                                     <div class="w-full mt-4">
                                                                         <a href="#"
-                                                                            class="text-sm font-semibold hover:text-blue-500 py-1">
+                                                                            class="text-sm font-semibold hover:text-hover-purple py-1">
                                                                             Balm Dotcom
                                                                             <span class="font-medium block">universal
                                                                                 skin
@@ -513,7 +515,7 @@
 
                                                                     <div class="w-full mt-4">
                                                                         <a href="#"
-                                                                            class="text-sm font-semibold hover:text-blue-500 py-1">
+                                                                            class="text-sm font-semibold hover:text-hover-purple py-1">
                                                                             Balm Dotcom
                                                                             <span class="font-medium block">universal
                                                                                 skin
@@ -568,7 +570,8 @@
                                                 </picture>
                                             </div>
                                         </a>
-                                        <a href="#" class="hover:underline hover:text-blue-500 text-center">Milky Jelly
+                                        <a href="#" class="hover:underline hover:text-hover-purple text-center">Milky
+                                            Jelly
                                             Cleanser</a>
                                         <p class="text-xs font-thin text-center">conditioning face wash</p>
                                     </div>
@@ -586,7 +589,8 @@
                                                 </picture>
                                             </div>
                                         </a>
-                                        <a href="#" class="hover:underline hover:text-blue-500">Body Hero Dry-Touch Oil
+                                        <a href="#" class="hover:underline hover:text-hover-purple">Body Hero Dry-Touch
+                                            Oil
                                             Mist</a>
                                         <p class="text-xs font-thin">dry-touch oil mist</p>
                                     </div>
@@ -604,12 +608,12 @@
                                                 </picture>
                                             </div>
                                         </a>
-                                        <a href="#" class="hover:underline hover:text-blue-500">Lash Slick</a>
+                                        <a href="#" class="hover:underline hover:text-hover-purple">Lash Slick</a>
                                         <p class="text-xs font-thin">film form mascara</p>
                                     </div>
                                 </div>
 
-                                <a href="#" class="underline hover:text-blue-500">View All</a>
+                                <a href="#" class="underline hover:text-hover-purple">View All</a>
                             </div>
                         </div>
                     </li>
@@ -657,7 +661,7 @@
                         x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"
                         x-show="isSideBarOpenFunc()"></div>
                     <!-- Content -->
-                    <section class="absolute inset-y-0 left-0 max-w-full flex" aria-labelledby="slide-over-heading">
+                    <section class="absolute inset-y-0 left-0 max-w-4/5 flex" aria-labelledby="slide-over-heading">
                         <div class="relative w-screen max-w-sm">
                             <!-- Sidebar -->
                             <div class="h-full flex flex-col bg-white shadow-xl overflow-y-visible"
@@ -682,25 +686,39 @@
                                 <div class="flex flex-col px-8 py-4 justify-between h-full overflow-y-scroll">
                                     <div class="self-start w-full">
                                         <ul class="font-semibold font-primary-font-sans text-left">
-                                            <li class="py-2 block font-base cursor-pointer hover:text-indigo-700">
+                                            <li
+                                                class="py-2 block font-base cursor-pointer hover:text-indigo-700 font-medium">
                                                 Skincare</li>
-                                            <li class="py-2 block font-base cursor-pointer hover:text-indigo-700">Makeup
+                                            <li
+                                                class="py-2 block font-base cursor-pointer hover:text-indigo-700 font-medium">
+                                                Makeup
                                             </li>
-                                            <li class="py-2 block font-base cursor-pointer hover:text-indigo-700">Body
+                                            <li
+                                                class="py-2 block font-base cursor-pointer hover:text-indigo-700 font-medium">
+                                                Body
                                             </li>
-                                            <li class="py-2 block font-base cursor-pointer hover:text-indigo-700">
+                                            <li
+                                                class="py-2 block font-base cursor-pointer hover:text-indigo-700 font-medium">
                                                 Fragrance</li>
-                                            <li class="py-2 block font-base cursor-pointer hover:text-indigo-700">Shop
+                                            <li
+                                                class="py-2 block font-base cursor-pointer hover:text-indigo-700 font-medium">
+                                                Shop
                                                 our Sets</li>
                                         </ul>
                                     </div>
                                     <div class="self-end w-full">
                                         <ul class="font-semibold font-primary-font-sans text-left">
-                                            <li class="py-2 block font-base cursor-pointer hover:text-indigo-700">Looks
+                                            <li
+                                                class="py-2 block font-base cursor-pointer hover:text-indigo-700 font-medium">
+                                                Looks
                                                 IRL</li>
-                                            <li class="py-2 block font-base cursor-pointer hover:text-indigo-700">Into
+                                            <li
+                                                class="py-2 block font-base cursor-pointer hover:text-indigo-700 font-medium">
+                                                Into
                                                 The Gloss</li>
-                                            <li class="py-2 block font-base cursor-pointer hover:text-indigo-700">About
+                                            <li
+                                                class="py-2 block font-base cursor-pointer hover:text-indigo-700 font-medium">
+                                                About
                                                 Glossier</li>
                                         </ul>
                                     </div>
@@ -716,7 +734,7 @@
                                             <option value="en-GB">United Kingdom</option>
                                         </select>
                                         <label for="locale" aria-hidden="true"
-                                            class="flex font-base justify-between align-top w-full absolute top-0 left-0 px-4 pt-2 text-sm transition ease duration-200 -z-10">
+                                            class="flex font-base justify-between align-top w-full absolute top-0 left-0 px-4 pt-2 text-sm transition ease duration-200 z-10">
                                             <span
                                                 class="transform text-sm scale-75 relative block float-left transition duration-200 ease origin-top-left group-focus:text-indigo-700">Shipping
                                                 to:</span>
@@ -750,8 +768,9 @@
                         x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"
                         x-show="isAccountOpen"></div>
                     <!-- Content -->
-                    <section class="absolute inset-y-0 right-0 max-w-full flex" aria-labelledby="slide-over-heading">
-                        <div class="relative w-screen max-w-sm">
+                    <section class="absolute inset-y-0 right-0 w-full md:max-w-sm lg:max-w-sm xl:max-w-sm flex"
+                        aria-labelledby="slide-over-heading">
+                        <div class="relative w-screen">
                             <!-- Sidebar -->
                             <div class="h-full flex flex-col bg-white shadow-xl overflow-y-visible"
                                 x-show="isAccountOpen" x-on:click.away="accountClose()"
@@ -765,7 +784,7 @@
                                     <div class="px-8 flex flex-nowrap items-center w-full h-12 justify-between mb-px">
                                         <div class="leading-none">
                                             <button
-                                                class="cursor-pointer appearance-none flex inline-flex relative items-center justify-center hover:text-blue-500"
+                                                class="cursor-pointer appearance-none flex inline-flex relative items-center justify-center hover:text-hover-purple"
                                                 x-on:click="accountClose()">
                                                 <svg aria-hidden="false" width="16px" height="16px" viewBox="0 0 16 16"
                                                     transform="rotate(0)" class="fill-current">
@@ -778,7 +797,7 @@
                                         <div class="">
                                             <h5 class="font-bold text-center text-lg w-full">Sign In</h5>
                                         </div>
-                                        <div class="relative flex items-center hover:text-blue-500 cursor-pointer">
+                                        <div class="relative flex items-center hover:text-hover-purple cursor-pointer">
                                             <button x-on:click="sidecartOpen()" id="" class="absolute w-full text-xs text-center"
                                                 style="top: 50%; transform: translate(0,-50%);">0</button>
                                             <svg aria-hidden="true" width="26px" height="26px" viewBox="0 0 29 21"
@@ -872,7 +891,7 @@
                                                                 </label>
                                                             </div>
                                                             <button
-                                                                class="bg-transparent underline text-black text-xs leading-4 text-left my-4 hover:text-blue-500">Forgot
+                                                                class="bg-transparent underline text-black text-xs leading-4 text-left my-4 hover:text-hover-purple">Forgot
                                                                 your password?</button>
                                                             <button type="submit"
                                                                 class="w-full bg-black cursor-pointer inline-flex relative items-center justify-center rounded-md border border-black font-semibold text-base py-3.5 px-5 text-white hover:bg-gray-800">
@@ -899,7 +918,7 @@
                                     <div class="px-8 flex flex-nowrap items-center w-full h-12 justify-between mb-px">
                                         <div class="leading-none">
                                             <button
-                                                class="cursor-pointer appearance-none flex inline-flex relative items-center justify-center hover:text-blue-500"
+                                                class="cursor-pointer appearance-none flex inline-flex relative items-center justify-center hover:text-hover-purple"
                                                 x-on:click="accountClose()">
                                                 <svg aria-hidden="false" width="16px" height="16px" viewBox="0 0 16 16"
                                                     transform="rotate(0)" class="fill-current">
@@ -913,7 +932,7 @@
                                             <h5 class="font-bold text-center text-lg w-full">Your Account</h5>
                                         </div>
                                         <button x-on:click="sidecartOpen()"
-                                            class="relative flex items-center hover:text-blue-500 cursor-pointer">
+                                            class="relative flex items-center hover:text-hover-purple cursor-pointer">
                                             <div id="" class="absolute w-full text-xs text-center"
                                                 style="top: 50%; transform: translate(0,-50%);">0</div>
                                             <svg aria-hidden="true" width="26px" height="26px" viewBox="0 0 29 21"
@@ -925,15 +944,15 @@
                                         </button>
                                     </div>
                                     <ul class="px-8 pt-5">
-                                        <li class="py-2 hover:text-blue-500 hover:underline font-semibold"><a
+                                        <li class="py-2 hover:text-hover-purple hover:underline font-semibold"><a
                                                 href="#">Orders</a></li>
-                                        <li class="py-2 hover:text-blue-500 hover:underline font-semibold"><a
+                                        <li class="py-2 hover:text-hover-purple hover:underline font-semibold"><a
                                                 href="#">Shipping Addresses</a></li>
-                                        <li class="py-2 hover:text-blue-500 hover:underline font-semibold"><a
+                                        <li class="py-2 hover:text-hover-purple hover:underline font-semibold"><a
                                                 href="#">Payment & Credits</a></li>
-                                        <li class="py-2 hover:text-blue-500 hover:underline font-semibold"><a
+                                        <li class="py-2 hover:text-hover-purple hover:underline font-semibold"><a
                                                 href="#">Refer a Friend </a></li>
-                                        <li class="py-2 hover:text-blue-500 hover:underline font-semibold"><a
+                                        <li class="py-2 hover:text-hover-purple hover:underline font-semibold"><a
                                                 href="#">Sign Out</a></li>
                                     </ul>
                                 </div>
@@ -956,8 +975,9 @@
                     </div>
                 </div>
                 <!-- Content -->
-                <section class="absolute inset-y-0 right-0 max-w-full flex" aria-labelledby="slide-over-heading">
-                    <div class="relative w-screen max-w-sm">
+                <section class="absolute inset-y-0 right-0 w-full md:max-w-sm lg:max-w-sm xl:max-w-sm 2xl:max-w-sm flex"
+                    aria-labelledby="slide-over-heading">
+                    <div class="relative w-screen">
                         <!-- Sidebar -->
                         <div class="h-full flex flex-col bg-white shadow-xl overflow-y-scroll bg-gray-50"
                             x-show="isCartOpen" x-on:click.away="sidecartClose()"
@@ -969,7 +989,7 @@
                             <div
                                 class="flex flex-nowrap justify-between items-center w-full h-12 mb-px px-4 bg-white border-b">
                                 <div class="flex items-center justify-center">
-                                    <button class="flex cursor-pointer hover:text-blue-500"
+                                    <button class="flex cursor-pointer hover:text-hover-purple"
                                         x-on:click="sidecartClose()">
                                         <svg aria-hidden="true" width="16px" height="16px" viewBox="0 0 16 16"
                                             transform="rotate(0)" class="fill-current">
@@ -978,9 +998,9 @@
                                             </path>
                                         </svg>
                                     </button>
-                                    <h2 class="text-black font-semibold text-sm ml-4">Your Bag</h2>
+                                    <h2 class="text-black font-bold text-sm ml-4">Your Bag</h2>
                                 </div>
-                                <span class="text-black font-base text-sm">
+                                <span class="text-black font-normal text-sm">
                                     <span id="amountItems">0 </span>
                                     <span>items</span>
                                 </span>
@@ -1012,7 +1032,7 @@
                                 style="height: calc(100% - 3rem)">
                                 <div class="CartContainer w-full pt-4 px-4">
                                     <div class="ProgressBar w-full flex flex-col flex-grow-0 flex-shrink-0">
-                                        <p class="text-sm text-left mb-2.5">
+                                        <p class="text-sm text-left mb-2.5 font-normal">
                                             $30.00 away from free standard shipping
                                         </p>
                                         <div class="w-full border h-1.5 rounded-full border-red-200"
@@ -1023,16 +1043,18 @@
                                         </div>
                                     </div>
                                     <div class="mt-4">
+                                        <!-- List Item -->
                                         <div class="ItemsInCartList flex flex-wrap justify-between">
+                                            <!-- Items -->
                                             <div class="flex flex-col items-start justify-between h-auto min-h-15 mb-4 border rounded-sm bg-white"
                                                 style="width:48%">
                                                 <div
                                                     class="flex flex-col items-start flex-grow w-full px-2.5 py-2 text-sm">
                                                     <div class="">
-                                                        <p class="font-semibold text-md mb-1">
+                                                        <p class="font-bold text-sm mb-1">
                                                             1x Lip Gross
                                                         </p>
-                                                        <span>$11</span>
+                                                        <span class="text-sm font-normal">$11</span>
                                                     </div>
                                                     <div class="flex-grow w-3/4 h-auto mx-auto">
                                                         <div class="relative overflow-hidden bg-no-repeat">
@@ -1044,61 +1066,12 @@
                                                 </div>
                                                 <div class="w-full flex flex-nowrap items-center">
                                                     <button
-                                                        class="w-1/2 h-8 text-sm border-t bg-white ProductCartButton">Edit</button>
+                                                        class="w-1/2 h-8 text-xs border-t border-r bg-white ProductCartButton">Edit</button>
                                                     <button
-                                                        class="w-1/2 h-8 text-sm border-t bg-white ProductCartButton">Remove</button>
+                                                        class="w-1/2 h-8 text-xs border-t bg-white ProductCartButton">Remove</button>
                                                 </div>
                                             </div>
-                                            <div class="flex flex-col items-start justify-between h-auto min-h-15 mb-4 border rounded-sm bg-white"
-                                                style="width:48%">
-                                                <div
-                                                    class="flex flex-col items-start flex-grow w-full px-2.5 py-2 text-sm">
-                                                    <div class="">
-                                                        <p class="font-semibold text-md mb-1">
-                                                            1x Lip Gross
-                                                        </p>
-                                                        <span>$11</span>
-                                                    </div>
-                                                    <div class="flex-grow w-3/4 h-auto mx-auto">
-                                                        <div class="relative overflow-hidden bg-no-repeat">
-                                                            <img class="object-cover"
-                                                                src="https://static-assets.glossier.com/production/spree/images/attachments/000/004/033/normal_ratio/lipgloss-red_silo.png?1562097057"
-                                                                alt="Flip Gross">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="w-full flex flex-nowrap items-center">
-                                                    <button
-                                                        class="w-1/2 h-8 text-sm border-t bg-white ProductCartButton">Edit</button>
-                                                    <button
-                                                        class="w-1/2 h-8 text-sm border-t bg-white ProductCartButton">Remove</button>
-                                                </div>
-                                            </div>
-                                            <div class="flex flex-col items-start justify-between h-auto min-h-15 mb-4 border rounded-sm bg-white"
-                                                style="width:48%">
-                                                <div
-                                                    class="flex flex-col items-start flex-grow w-full px-2.5 py-2 text-sm">
-                                                    <div class="">
-                                                        <p class="font-semibold text-md mb-1">
-                                                            1x Lip Gross
-                                                        </p>
-                                                        <span>$11</span>
-                                                    </div>
-                                                    <div class="flex-grow w-3/4 h-auto mx-auto">
-                                                        <div class="relative overflow-hidden bg-no-repeat">
-                                                            <img class="object-cover"
-                                                                src="https://static-assets.glossier.com/production/spree/images/attachments/000/004/033/normal_ratio/lipgloss-red_silo.png?1562097057"
-                                                                alt="Flip Gross">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="w-full flex flex-nowrap items-center">
-                                                    <button
-                                                        class="w-1/2 h-8 text-sm border-t bg-white ProductCartButton">Edit</button>
-                                                    <button
-                                                        class="w-1/2 h-8 text-sm border-t bg-white ProductCartButton">Remove</button>
-                                                </div>
-                                            </div>
+
                                         </div>
                                         <!-- Divider -->
                                         <div class="border-b my-4 w-full"></div>
@@ -1110,74 +1083,29 @@
                                             <div class="GradientOverlay h-3/4 w-auto relative -mx-4 px-4 ">
                                                 <div
                                                     class="ScrollList -mx-4 px-4 box-border flex flex-row flex-nowrap overflow-x-auto overflow-y-hidden justify-start">
-                                                    <!-- Items -->
-                                                    <div class="flex flex-col justify-center mr-4 items-center w-full">
-                                                        <div class="h-auto mb-2 box-border w-24">
-                                                            <div class="rounded-full overflow-hidden">
-                                                                <img class="object-cover rounded-full h-full w-full"
-                                                                    src="http://images.ctfassets.net/p3w8f4svwgcg/4wKIGCGDWocYQqhq3HUlg/9467110295cb60b5223401aa0ad84d2c/Sample_OilWash.jpg"
-                                                                    alt="Sample">
+
+
+                                                    <template x-for="(item, index) in sampleItems" :key="index">
+
+                                                        <!-- ITEMS -->
+                                                        <div
+                                                            class="flex flex-col justify-center mr-4 items-center w-full">
+                                                            <div class="h-auto mb-2 box-border w-24">
+                                                                <div class="rounded-full overflow-hidden">
+                                                                    <img class="object-cover rounded-full h-full w-full"
+                                                                        src="http://images.ctfassets.net/p3w8f4svwgcg/4wKIGCGDWocYQqhq3HUlg/9467110295cb60b5223401aa0ad84d2c/Sample_OilWash.jpg"
+                                                                        alt="Sample">
+                                                                </div>
+                                                            </div>
+                                                            <p
+                                                                class="text-black font-bold text-center text-xs my-2 -mx-2">
+                                                                (New) Body Hero Oil Wash Sample</p>
+                                                            <div class="w-full w-full mt-auto mb-0">
+                                                                <button
+                                                                    class="w-full cursor-pointer inline-flex relative items-center justify-center rounded-sm text-sm bg-white text-black px-3 py-4 h-auto mt-2 mb-4 border hover:border-black">Add</button>
                                                             </div>
                                                         </div>
-                                                        <p
-                                                            class="text-black font-semibold text-center text-xs my-2 -mx-2">
-                                                            (New) Body Hero Oil Wash Sample</p>
-                                                        <div class="w-full w-full mt-auto mb-0">
-                                                            <button
-                                                                class="w-full cursor-pointer inline-flex relative items-center justify-center rounded-sm text-sm bg-white text-black px-3 py-4 h-auto mt-2 mb-4 border hover:border-black">Add</button>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Items -->
-                                                    <div class="flex flex-col justify-center mr-4 items-center w-full">
-                                                        <div class="h-auto mb-2 box-border w-24">
-                                                            <div class="rounded-full overflow-hidden">
-                                                                <img class="object-cover rounded-full h-full w-full"
-                                                                    src="http://images.ctfassets.net/p3w8f4svwgcg/4wKIGCGDWocYQqhq3HUlg/9467110295cb60b5223401aa0ad84d2c/Sample_OilWash.jpg"
-                                                                    alt="Sample">
-                                                            </div>
-                                                        </div>
-                                                        <p
-                                                            class="text-black font-semibold text-center text-xs my-2 -mx-2">
-                                                            (New) Body Hero Oil Wash Sample</p>
-                                                        <div class="w-full w-full mt-auto mb-0">
-                                                            <button
-                                                                class="w-full cursor-pointer inline-flex relative items-center justify-center rounded-sm text-sm bg-white text-black px-3 py-4 h-auto mt-2 mb-4 border hover:border-black">Add</button>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Items -->
-                                                    <div class="flex flex-col justify-center mr-4 items-center w-full">
-                                                        <div class="h-auto mb-2 box-border w-24">
-                                                            <div class="rounded-full overflow-hidden">
-                                                                <img class="object-cover rounded-full h-full w-full"
-                                                                    src="http://images.ctfassets.net/p3w8f4svwgcg/4wKIGCGDWocYQqhq3HUlg/9467110295cb60b5223401aa0ad84d2c/Sample_OilWash.jpg"
-                                                                    alt="Sample">
-                                                            </div>
-                                                        </div>
-                                                        <p
-                                                            class="text-black font-semibold text-center text-xs my-2 -mx-2">
-                                                            (New) Body Hero Oil Wash Sample</p>
-                                                        <div class="w-full w-full mt-auto mb-0">
-                                                            <button
-                                                                class="w-full cursor-pointer inline-flex relative items-center justify-center rounded-sm text-sm bg-white text-black px-3 py-4 h-auto mt-2 mb-4 border hover:border-black">Add</button>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Items -->
-                                                    <div class="flex flex-col justify-center mr-4 items-center w-full">
-                                                        <div class="h-auto mb-2 box-border w-24">
-                                                            <div class="rounded-full overflow-hidden">
-                                                                <img class="object-cover rounded-full h-full w-full"
-                                                                    src="http://images.ctfassets.net/p3w8f4svwgcg/4wKIGCGDWocYQqhq3HUlg/9467110295cb60b5223401aa0ad84d2c/Sample_OilWash.jpg"
-                                                                    alt="Sample">
-                                                            </div>
-                                                        </div>
-                                                        <p
-                                                            class="text-black font-semibold text-center text-xs my-2 -mx-2">
-                                                            (New) Body Hero Oil Wash Sample</p>
-                                                        <div class="w-full w-full mt-auto mb-0">
-                                                            <button
-                                                                class="w-full cursor-pointer inline-flex relative items-center justify-center rounded-sm text-sm bg-white text-black px-3 py-4 h-auto mt-2 mb-4 border hover:border-black">Add</button>
-                                                        </div>
-                                                    </div>
+                                                    </template>
                                                 </div>
                                             </div>
                                         </div>
@@ -1187,7 +1115,7 @@
                                         <div class="w-full">
                                             <!-- Apply Promo Code -->
                                             <button
-                                                class="bg-transparent underline text-sm text-black hover:text-blue-500 outline-none focus:outline-none text-left"
+                                                class="bg-transparent underline text-sm text-black hover:text-hover-purple outline-none focus:outline-none text-left"
                                                 x-on:click="promoFormOpen()" x-show="!isPromoFormOpen">
                                                 + Apply a promo code
                                             </button>
@@ -1214,13 +1142,13 @@
                                         <!-- Subtotal -->
                                         <div class="w-full flex flex-col">
                                             <div class="flex justify-between">
-                                                <p class="text-black font-semibold text-sm leading-6">Subtotal</p>
-                                                <p class="text-black font-semibold text-sm">$11.00</p>
+                                                <p class="text-black font-bold text-sm leading-6">Subtotal</p>
+                                                <p class="text-black font-bold text-sm">$11.00</p>
                                             </div>
                                             <div class="flex justify-between">
-                                                <p class="text-black font-semibold text-sm leading-6">
+                                                <p class="text-black font-bold text-sm leading-6">
                                                     Shipping
-                                                    <span class="font-medium">
+                                                    <span class="font-normal">
                                                         (free standard shipping over £30)
                                                     </span>
                                                 </p>
@@ -1236,9 +1164,9 @@
                             </div>
                             <div class="p-4 left-0 right-0 bottom-0 bg-white border-t">
                                 <div class="flex justify-between">
-                                    <p class="text-black font-semibold text-lg">Estimated Total</p>
+                                    <p class="text-black font-bold text-lg">Estimated Total</p>
                                     <div class="">
-                                        <div class="text-black text-lg font-semibold">$11.00</div>
+                                        <div class="text-black text-lg font-bold">$11.00</div>
                                     </div>
                                 </div>
                                 <div class="w-full mt-2 flex flex-wrap">
@@ -1251,9 +1179,9 @@
                                         class="h-auto cursor-pointer inline-flex flex-auto relative items-center justify-center rounded-sm font-semibold text-base mx-auto text-center bg-black border border-black hover:bg-gray-800 text-white px-5 py-3.5 ">Checkout</a>
                                 </div>
                                 <p class="text-xs mt-2 text-gray-500">By checking out, I agree to the
-                                    <a href="#" class="text-black underline hover:text-blue-500">Terms of Use </a>
+                                    <a href="#" class="text-black underline hover:text-hover-purple">Terms of Use </a>
                                     and acknowledge that I have read the
-                                    <a href="#" class="text-black underline hover:text-blue-500">Privacy Policy</a>
+                                    <a href="#" class="text-black underline hover:text-hover-purple">Privacy Policy</a>
                                 </p>
                             </div>
                         </div>
@@ -1302,7 +1230,7 @@
                     <!-- Shipping To -->
                     <div class="w-full lg:w-1/3 xl:w-1/3 p-2 pb-4 xl:p-0 lg:p-0 relative group" height="fit-content">
                         <select name="locale" id="locale"
-                            class="bg-black font-primary-font-sans text-base cursor-pointer w-full rounded-sm pt-5 px-4 pb-2 appearance-none">
+                            class="bg-black font-primary-font-sans text-base cursor-pointer w-full rounded-sm pt-5 px-2 lg:px-4 xl:px-4 pb-2 appearance-none">
                             <option value="en-US">United States</option>
                             <option value="en-CA">Canada (EN)</option>
                             <option value="fr-CA">Canada (FR)</option>

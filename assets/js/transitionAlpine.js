@@ -8,6 +8,7 @@ function transitionAlpine() {
     isPromoFormOpen: false,
     showBottomMenu: true,
     lastScrollPos: window.pageYOffset,
+    sampleItems: [1, 2, 3, 4, 5, 6],
     // SIDEBAR
     sidebarOpen() {
       this.isSidebarOpen = true;

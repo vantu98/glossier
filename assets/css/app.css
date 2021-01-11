@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /*
@@ -14368,6 +14370,10 @@ video {
 
 .max-w-screen-2xl{
   max-width: 1536px;
+}
+
+.max-w-4\/5{
+  max-width: 80%;
 }
 
 .min-h-0{
@@ -45244,6 +45250,10 @@ video {
     max-width: 1536px;
   }
 
+  .sm\:max-w-4\/5{
+    max-width: 80%;
+  }
+
   .sm\:min-h-0{
     min-height: 0px;
   }
@@ -76038,6 +76048,10 @@ video {
 
   .md\:max-w-screen-2xl{
     max-width: 1536px;
+  }
+
+  .md\:max-w-4\/5{
+    max-width: 80%;
   }
 
   .md\:min-h-0{
@@ -106836,6 +106850,10 @@ video {
     max-width: 1536px;
   }
 
+  .lg\:max-w-4\/5{
+    max-width: 80%;
+  }
+
   .lg\:min-h-0{
     min-height: 0px;
   }
@@ -137632,6 +137650,10 @@ video {
     max-width: 1536px;
   }
 
+  .xl\:max-w-4\/5{
+    max-width: 80%;
+  }
+
   .xl\:min-h-0{
     min-height: 0px;
   }
@@ -168426,6 +168448,10 @@ video {
 
   .\32xl\:max-w-screen-2xl{
     max-width: 1536px;
+  }
+
+  .\32xl\:max-w-4\/5{
+    max-width: 80%;
   }
 
   .\32xl\:min-h-0{

@@ -41,6 +41,9 @@ module.exports = {
       zIndex: {
         "-10": "-10",
       },
+      maxWidth: {
+        "4/5": "80%",
+      },
     },
     container: {
       center: true,
